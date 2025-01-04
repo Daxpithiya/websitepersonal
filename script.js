@@ -8,7 +8,7 @@
       const password = document.getElementById("password").value;
       const errorMsg = document.getElementById("error-msg");
 
-      if (username === validUsername && password === validPassword) {
+      if (username === test && password === test) {
         errorMsg.textContent = "";
         // Redirect to the second page
         window.location.href = "notes.html";
